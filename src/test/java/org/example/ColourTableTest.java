@@ -69,5 +69,12 @@ public class ColourTableTest {
 
     }
 
+    @Test
+    public void testInvalidCapacityNotPowerOf2(){
+        //test whether an exception is thrown when the  capacity of the palette is invalid as it is not a power of 2
+        IllegalStateException exception = assertThrows(IllegalStateException.class,()->{ColourTable colourTable=new ColourTable(7);});
+
+    }
+
 
 }

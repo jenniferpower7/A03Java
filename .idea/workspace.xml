@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b93f8c8-700d-4df1-b9c6-b666c1860b46" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ColourTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ColourTable.java" afterDir="false" />
-    </list>
+    <list default="true" id="8b93f8c8-700d-4df1-b9c6-b666c1860b46" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -244,7 +242,31 @@
       <option name="project" value="LOCAL" />
       <updated>1701803880260</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="method that throws exception when capacity to large added. Constuctor method does not greate a palette if this is the case.">
+      <option name="closed" value="true" />
+      <created>1701804137506</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1701804137506</updated>
+    </task>
+    <task id="LOCAL-00014" summary="test method for when capacity is too small">
+      <option name="closed" value="true" />
+      <created>1701804207540</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1701804207540</updated>
+    </task>
+    <task id="LOCAL-00015" summary="isValidCapacity updated to check for when capacity is too small">
+      <option name="closed" value="true" />
+      <created>1701804295651</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1701804295651</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -261,6 +283,9 @@
     <MESSAGE value="test method added that checks is exception is thrown when and RGB with a length not equal to three is attempted to be added" />
     <MESSAGE value="isValidRGB method updated to check rgb is of length 3" />
     <MESSAGE value="Test method that checks is a capacity is too large" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test method that checks is a capacity is too large" />
+    <MESSAGE value="method that throws exception when capacity to large added. Constuctor method does not greate a palette if this is the case." />
+    <MESSAGE value="test method for when capacity is too small" />
+    <MESSAGE value="isValidCapacity updated to check for when capacity is too small" />
+    <option name="LAST_COMMIT_MESSAGE" value="isValidCapacity updated to check for when capacity is too small" />
   </component>
 </project>
