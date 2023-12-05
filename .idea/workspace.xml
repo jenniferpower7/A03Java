@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b93f8c8-700d-4df1-b9c6-b666c1860b46" name="Changes" comment="added test method to check whether an exception  is thrown when an RGB value that exceeds 255 is attempted to be added">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ColourTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ColourTable.java" afterDir="false" />
+    <list default="true" id="8b93f8c8-700d-4df1-b9c6-b666c1860b46" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ColourTableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ColourTableTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,22 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ColourTableTest.testInvalidRGBSubceeding">
+  <component name="RunManager" selected="JUnit.ColourTableTest">
+    <configuration name="ColourTableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="A03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ColourTableTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ColourTableTest.testAddMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="A03" />
       <extension name="coverage">
@@ -117,6 +131,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ColourTableTest" />
         <item itemvalue="JUnit.ColourTableTest.testInvalidRGBSubceeding" />
         <item itemvalue="JUnit.ColourTableTest.testInvalidRGBExceeding" />
         <item itemvalue="JUnit.ColourTableTest.testAddMethod" />
@@ -181,7 +196,31 @@
       <option name="project" value="LOCAL" />
       <updated>1701803153037</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Method added that checks whether an RGB value exceeds 255. exception is thrown if it does">
+      <option name="closed" value="true" />
+      <created>1701803322466</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701803322466</updated>
+    </task>
+    <task id="LOCAL-00008" summary="test method added that checks whether an exception is thrown when an RGB value that is less than 0 is attempted to be added">
+      <option name="closed" value="true" />
+      <created>1701803426135</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1701803426135</updated>
+    </task>
+    <task id="LOCAL-00009" summary="isValidRGB method updated to check if an RGB value is too small">
+      <option name="closed" value="true" />
+      <created>1701803513824</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1701803513824</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -192,6 +231,9 @@
     <MESSAGE value="added method for adding rgb values so that the index is returned. Added getCapacity" />
     <MESSAGE value="added method for adding rgb values so that the index is returned. Added get size and contains methods so that the test passes" />
     <MESSAGE value="added test method to check whether an exception  is thrown when an RGB value that exceeds 255 is attempted to be added" />
-    <option name="LAST_COMMIT_MESSAGE" value="added test method to check whether an exception  is thrown when an RGB value that exceeds 255 is attempted to be added" />
+    <MESSAGE value="Method added that checks whether an RGB value exceeds 255. exception is thrown if it does" />
+    <MESSAGE value="test method added that checks whether an exception is thrown when an RGB value that is less than 0 is attempted to be added" />
+    <MESSAGE value="isValidRGB method updated to check if an RGB value is too small" />
+    <option name="LAST_COMMIT_MESSAGE" value="isValidRGB method updated to check if an RGB value is too small" />
   </component>
 </project>
