@@ -11,4 +11,18 @@ public class ColourTableTest {
         assertEquals(4,colourTable.getCapacity());
     }
 
+    @Test
+    public void testAddMethod(){
+        //test method to make sure add method works correctly:
+        //the size increases, the colour table contains it and that the index is returned
+        ColourTable colourTable = new ColourTable(4);
+        int initialSize=colourTable.getSize();
+        int [] rgbColourToAdd={255,0,0};
+        colourTable.add(rgbColourToAdd);
+        assertEquals(initialSize +1, colourTable.getSize());
+        assertTrue(colourTable.contains(rgbColourToAdd));
+        assertEquals(0,colourTable.add(rgbColourToAdd));
+    }
+
+
 }

@@ -10,7 +10,7 @@ public class ColourTable {
         this.colourTable=new int[capacity][3];
 
     }
-    //method gor getting capacity
+    //method for getting capacity
     public int getCapacity(){
         return capacity;
     }

@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b93f8c8-700d-4df1-b9c6-b666c1860b46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ColourTableTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/java/org/example/ColourTableTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ColourTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ColourTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ColourTableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ColourTableTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,11 +90,29 @@
       <option name="project" value="LOCAL" />
       <updated>1701800780934</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added test method for constructor">
+      <option name="closed" value="true" />
+      <created>1701801184857</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701801184862</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added constructor method and get capacity method so that constructor test runs">
+      <option name="closed" value="true" />
+      <created>1701801302192</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701801302192</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added JUnit dependency" />
-    <option name="LAST_COMMIT_MESSAGE" value="added JUnit dependency" />
+    <MESSAGE value="added test method for constructor" />
+    <MESSAGE value="added constructor method and get capacity method so that constructor test runs" />
+    <option name="LAST_COMMIT_MESSAGE" value="added constructor method and get capacity method so that constructor test runs" />
   </component>
 </project>
