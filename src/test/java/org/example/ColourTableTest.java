@@ -130,6 +130,19 @@ public class ColourTableTest {
         ColourTable colourTable=new ColourTable(4);
         assertEquals(colourTable.getCapacity(),4);
     }
+    @Test
+    public void testDuplicateColours(){
+        //test whether an exception is thrown when a duplicate colour is added to the palette
+        ColourTable colourTable=new ColourTable(4);
+        int[] value1={1,1,1};
+        colourTable.add(value1);
+        assertEquals(colourTable.getSize(),1);
+        int[] value2={1,1,1};
+
+        IllegalStateException exception=assertThrows(IllegalStateException.class,()->{colourTable.add(value2);});
+
+        assertEquals(colourTable.getSize(),1);
+    }
 
 
 }
