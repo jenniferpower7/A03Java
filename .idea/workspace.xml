@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b93f8c8-700d-4df1-b9c6-b666c1860b46" name="Changes" comment="" />
+    <list default="true" id="8b93f8c8-700d-4df1-b9c6-b666c1860b46" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ColourTableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ColourTableTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +49,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ColourTableTest.testExceedingCapacity">
+  <component name="RunManager" selected="JUnit.ColourTableTest">
     <configuration name="ColourTableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="A03" />
       <extension name="coverage">
@@ -129,8 +131,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ColourTableTest.testExceedingCapacity" />
         <item itemvalue="JUnit.ColourTableTest" />
+        <item itemvalue="JUnit.ColourTableTest.testExceedingCapacity" />
         <item itemvalue="JUnit.ColourTableTest.testInvalidCapacityExceeding" />
         <item itemvalue="JUnit.ColourTableTest.testInvalidRGBSubceeding" />
         <item itemvalue="JUnit.ColourTableTest.testInvalidRGBExceeding" />
@@ -266,7 +268,31 @@
       <option name="project" value="LOCAL" />
       <updated>1701804295651</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="test method for when capacity if not a power of 2">
+      <option name="closed" value="true" />
+      <created>1701804366378</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1701804366378</updated>
+    </task>
+    <task id="LOCAL-00017" summary="is valid capacity updated to check when capacity is not a power of 2">
+      <option name="closed" value="true" />
+      <created>1701804447874</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1701804447874</updated>
+    </task>
+    <task id="LOCAL-00018" summary="test that makes sure an rgb value isnt added is capacity is reached.">
+      <option name="closed" value="true" />
+      <created>1701804608054</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1701804608054</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -286,6 +312,9 @@
     <MESSAGE value="method that throws exception when capacity to large added. Constuctor method does not greate a palette if this is the case." />
     <MESSAGE value="test method for when capacity is too small" />
     <MESSAGE value="isValidCapacity updated to check for when capacity is too small" />
-    <option name="LAST_COMMIT_MESSAGE" value="isValidCapacity updated to check for when capacity is too small" />
+    <MESSAGE value="test method for when capacity if not a power of 2" />
+    <MESSAGE value="is valid capacity updated to check when capacity is not a power of 2" />
+    <MESSAGE value="test that makes sure an rgb value isnt added is capacity is reached." />
+    <option name="LAST_COMMIT_MESSAGE" value="test that makes sure an rgb value isnt added is capacity is reached." />
   </component>
 </project>

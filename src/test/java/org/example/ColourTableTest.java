@@ -125,5 +125,11 @@ public class ColourTableTest {
         assertTrue(colourTable.contains(value3));
     }
 
+    @Test
+    public void testValidCapacity(){
+        ColourTable colourTable=new ColourTable(4);
+        assertEquals(colourTable.getCapacity(),4);
+    }
+
 
 }
