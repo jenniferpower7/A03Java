@@ -18,10 +18,11 @@ public class ColourTableTest {
         ColourTable colourTable = new ColourTable(4);
         int initialSize=colourTable.getSize();
         int [] rgbColourToAdd={255,0,0};
-        colourTable.add(rgbColourToAdd);
+        int index = colourTable.add(rgbColourToAdd);
+
         assertEquals(initialSize +1, colourTable.getSize());
         assertTrue(colourTable.contains(rgbColourToAdd));
-        assertEquals(0,colourTable.add(rgbColourToAdd));
+        assertEquals(0,index);
     }
 
 
