@@ -161,6 +161,18 @@ public class ColourTableTest {
         assertArrayEquals(rgbColourToAdd, retrievedRGB);
     }
 
+    @Test
+    public void testLookUpIndexTooLarge(){
+        ColourTable colourTable = new ColourTable(4);
+        int[] rgbColourToAdd = {255, 0, 0};
+        colourTable.add(rgbColourToAdd);
+        int indexToTest = 1;
+        assertThrows(IndexOutOfBoundsException.class, () -> {
+            int[] retrievedRGB = colourTable.getRGBAtIndex(indexToTest);
+        });
+
+    }
+
 }
 
 
