@@ -60,7 +60,7 @@ public class ColourTable {
         return true;}
 
     private boolean isValidCapacity(int capacity){
-        if(capacity <=1025){
+        if(capacity>=2 &&capacity <=1025){
             return true;
         }
         return false;
