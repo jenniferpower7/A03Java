@@ -144,5 +144,24 @@ public class ColourTableTest {
         assertEquals(colourTable.getSize(),1);
     }
 
+    @Test
+    public void testLookUpRGBInPalette(){
+        ColourTable colourTable = new ColourTable(4);
+
+        int[] rgbColourToAdd = {255, 0, 0};
+        colourTable.add(rgbColourToAdd);
+
+        // Specify the index to test
+        int indexToTest = 0;
+
+        // Retrieve the RGB value at the specified index
+        int[] retrievedRGB = colourTable.getRGBAtIndex(indexToTest);
+
+        // Assert that the retrieved RGB value matches the expected value
+        assertArrayEquals(rgbColourToAdd, retrievedRGB);
+    }
+
+    }
+
 
 }
