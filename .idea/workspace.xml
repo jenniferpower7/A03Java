@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b93f8c8-700d-4df1-b9c6-b666c1860b46" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ColourTableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ColourTableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ColourTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ColourTable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ColourTableTest.testLookUpIndexTooLarge">
+  <component name="RunManager" selected="JUnit.ColourTableTest.testLookUpIndexTooSmall">
     <configuration name="ColourTableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="A03" />
       <extension name="coverage">
@@ -97,22 +97,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ColourTableTest.testInvalidRGBSubceeding" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="A03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ColourTableTest" />
-      <option name="METHOD_NAME" value="testInvalidRGBSubceeding" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ColourTableTest.testLookUpIndexTooLarge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="A03" />
       <extension name="coverage">
@@ -129,13 +113,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ColourTableTest.testLookUpIndexTooSmall" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="A03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ColourTableTest" />
+      <option name="METHOD_NAME" value="testLookUpIndexTooSmall" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ColourTableTest.testLookUpIndexTooSmall" />
         <item itemvalue="JUnit.ColourTableTest.testLookUpIndexTooLarge" />
         <item itemvalue="JUnit.ColourTableTest" />
         <item itemvalue="JUnit.ColourTableTest.testExceedingCapacity" />
         <item itemvalue="JUnit.ColourTableTest.testInvalidCapacityExceeding" />
-        <item itemvalue="JUnit.ColourTableTest.testInvalidRGBSubceeding" />
       </list>
     </recent_temporary>
   </component>
@@ -340,13 +340,34 @@
       <option name="project" value="LOCAL" />
       <updated>1701805694423</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="test method for when index used to look up is too large">
+      <option name="closed" value="true" />
+      <created>1701805994940</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1701805994940</updated>
+    </task>
+    <task id="LOCAL-00026" summary="lookup method updated to throw exception when index too large">
+      <option name="closed" value="true" />
+      <created>1701806110148</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1701806110148</updated>
+    </task>
+    <task id="LOCAL-00027" summary="test method for when index too small">
+      <option name="closed" value="true" />
+      <created>1701806258913</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1701806258913</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added JUnit dependency" />
-    <MESSAGE value="added test method for constructor" />
-    <MESSAGE value="added constructor method and get capacity method so that constructor test runs" />
     <MESSAGE value="test method for add created" />
     <MESSAGE value="added method for adding rgb values so that the index is returned. Added getCapacity" />
     <MESSAGE value="added method for adding rgb values so that the index is returned. Added get size and contains methods so that the test passes" />
@@ -369,6 +390,9 @@
     <MESSAGE value="add method updated to check for duplicates" />
     <MESSAGE value="test method for looking up RGB values by index" />
     <MESSAGE value="method added to return RGB values by index" />
-    <option name="LAST_COMMIT_MESSAGE" value="method added to return RGB values by index" />
+    <MESSAGE value="test method for when index used to look up is too large" />
+    <MESSAGE value="lookup method updated to throw exception when index too large" />
+    <MESSAGE value="test method for when index too small" />
+    <option name="LAST_COMMIT_MESSAGE" value="test method for when index too small" />
   </component>
 </project>

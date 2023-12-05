@@ -70,7 +70,7 @@ public class ColourTable {
         return false;
     }
     public int[] getRGBAtIndex(int index) {
-        if (index < currentSize) {
+        if (index<0&&index < currentSize) {
             return colourTable[index];
         } else {
             throw new IndexOutOfBoundsException("Index out of bounds");
