@@ -69,8 +69,12 @@ public class ColourTable {
         }
         return false;
     }
-
+    public int[] getRGBAtIndex(int index) {
+            return colourTable[index];
     }
+
+
+}
 
 
 

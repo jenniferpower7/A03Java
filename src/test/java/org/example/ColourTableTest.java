@@ -161,7 +161,7 @@ public class ColourTableTest {
         assertArrayEquals(rgbColourToAdd, retrievedRGB);
     }
 
-    }
-
-
 }
+
+
+
