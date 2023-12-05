@@ -46,7 +46,7 @@ public class ColourTable {
     private boolean isValidRGB(int[] rgb) {
         // Check each value
         for (int value : rgb) {
-            if (!(value < 256)) {
+            if (!(value >= 0 && value < 256)) {
                 return false;
             }
         }
