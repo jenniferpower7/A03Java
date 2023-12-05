@@ -47,7 +47,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ColourTableTest">
+  <component name="RunManager" selected="JUnit.ColourTableTest.testExceedingCapacity">
     <configuration name="ColourTableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="A03" />
       <extension name="coverage">
@@ -63,7 +63,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ColourTableTest.testAddMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ColourTableTest.testExceedingCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="A03" />
       <extension name="coverage">
         <pattern>
@@ -73,7 +73,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.ColourTableTest" />
-      <option name="METHOD_NAME" value="testAddMethod" />
+      <option name="METHOD_NAME" value="testExceedingCapacity" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ColourTableTest.testExceedingCapacity" />
         <item itemvalue="JUnit.ColourTableTest" />
         <item itemvalue="JUnit.ColourTableTest.testInvalidCapacityExceeding" />
         <item itemvalue="JUnit.ColourTableTest.testInvalidRGBSubceeding" />
         <item itemvalue="JUnit.ColourTableTest.testInvalidRGBExceeding" />
-        <item itemvalue="JUnit.ColourTableTest.testAddMethod" />
       </list>
     </recent_temporary>
   </component>

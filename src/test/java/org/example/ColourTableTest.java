@@ -76,5 +76,28 @@ public class ColourTableTest {
 
     }
 
+    @Test
+    public void testExceedingCapacity(){
+        //test whether an exception is thrown when the capacity of the palette is exceeded
+        ColourTable colourTable=new ColourTable(4);
+        int[] value1={0,0,100};
+        int[] value2={10,0,100};
+        int[] value3={0,20,100};
+        int[] value4={50,0,100};
+        int[] value5={0,50,100};
+
+        colourTable.add(value1);
+        colourTable.add(value2);
+        colourTable.add(value3);
+        colourTable.add(value4);
+
+        assertEquals(4, colourTable.getSize());
+
+        IndexOutOfBoundsException exception= assertThrows(IndexOutOfBoundsException.class,()->{colourTable.add(value5);});
+
+        assertEquals(4, colourTable.getSize());
+
+    }
+
 
 }
