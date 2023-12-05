@@ -25,5 +25,15 @@ public class ColourTableTest {
         assertEquals(0,index);
     }
 
+    @Test
+    public void testInvalidRGBExceeding(){
+        //test whether an exception is thrown when an invalid RBG is attempted to be added to colourTable
+        ColourTable colourTable=new ColourTable(4);
+        int[] invalidRGBValue={0,0,256};
+        ArrayIndexOutOfBoundsException exception=assertThrows(ArrayIndexOutOfBoundsException.class,()->{colourTable.add(invalidRGBValue);});
+        //check correct exception message is thrown
+        assertEquals("Invalid RGB value: " + invalidRGBValue, exception.getMessage());
+    }
+
 
 }
