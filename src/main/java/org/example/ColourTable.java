@@ -1,7 +1,17 @@
 package org.example;
 
 public class ColourTable {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
+    private int [][] colourTable;
+    private int capacity;
+
+    //constructor for colour table
+    public ColourTable(int capacity){
+        this.capacity=capacity;
+        this.colourTable=new int[capacity][3];
+
+    }
+    //method gor getting capacity
+    public int getCapacity(){
+        return capacity;
     }
 }
