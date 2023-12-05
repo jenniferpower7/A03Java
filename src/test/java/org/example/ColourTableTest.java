@@ -173,6 +173,18 @@ public class ColourTableTest {
 
     }
 
+    @Test
+    public void testLookUpIndexTooSmall(){
+        ColourTable colourTable = new ColourTable(4);
+        int[] rgbColourToAdd = {255, 0, 0};
+        colourTable.add(rgbColourToAdd);
+        int indexToTest = -1;
+        assertThrows(IndexOutOfBoundsException.class, () -> {
+            int[] retrievedRGB = colourTable.getRGBAtIndex(indexToTest);
+        });
+
+    }
+
 }
 
 
