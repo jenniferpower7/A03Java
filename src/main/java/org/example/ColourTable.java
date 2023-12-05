@@ -7,6 +7,9 @@ public class ColourTable {
 
     //constructor for colour table
     public ColourTable(int capacity){
+        if(!isValidCapacity(capacity)){
+            throw new IllegalStateException("Invalid Capacity: " +capacity);
+        }
         this.capacity=capacity;
         this.colourTable=new int[capacity][3];
         this.currentSize=0;
@@ -55,6 +58,13 @@ public class ColourTable {
         }
 
         return true;}
+
+    private boolean isValidCapacity(int capacity){
+        if(capacity <=1025){
+            return true;
+        }
+        return false;
+    }
 
     }
 
